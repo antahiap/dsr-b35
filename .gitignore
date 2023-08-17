@@ -6,6 +6,7 @@ __pycache__/
 .key
 envs/
 .history/
+mlruns/
 
 # C extensions
 *.so
