@@ -28,8 +28,8 @@
 [submodule "resources/fastbook"]
 	path = resources/fastbook
 	url = git@github.com:antahiap/fastbook.git
-[submodule "dsr_ds_fundamental"]
-	path = dsr_ds_fundamental
+[submodule "dsr-ds-fundamental"]
+	path = dsr-ds-fundamental
 	url = git@github.com:antahiap/DSR_DS_Fundamental.git
 [submodule "python/numpy-100"]
 	path = python/numpy-100
@@ -37,17 +37,17 @@
 [submodule "python/dsr-pandas"]
 	path = python/dsr-pandas
 	url = git@github.com:antahiap/DSR_Pandas.git
-[submodule "dsr-ml_fundamentals"]
-	path = dsr-ml_fundamentals
+[submodule "dsr-ml-fundamental-02"]
+	path = dsr-ml-fundamental-02
 	url = git@github.com:antahiap/DSR_ML_Fundamentals_2023.git
 [submodule "python/100-pandas-puzzles"]
 	path = python/100-pandas-puzzles
 	url = git@github.com:antahiap/100-pandas-puzzles.git
-[submodule "mL-fundamentals"]
-	path = mL-fundamentals
+[submodule "dsr-ml-fundamental-01"]
+	path = dsr-ml-fundamental-01
 	url = git@github.com:antahiap/ML_Fundamentals.git
-[submodule "projects/siemens-use-case"]
-	path = projects/siemens-use-case
+[submodule "project/siemens-use-case"]
+	path = project/siemens-use-case
 	url = git@github.com:antahiap/siemens-use-case.git
 [submodule "project/food_LLMsKG_KAGING"]
 	path = project/food_LLMsKG_KAGING

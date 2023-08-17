@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.env
+.key
+envs/
+.history/
 
 # C extensions
 *.so
