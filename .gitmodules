@@ -52,3 +52,9 @@
 [submodule "project/food_LLMsKG_KAGING"]
 	path = project/food_LLMsKG_KAGING
 	url = git@github.com:antahiap/food_LLMsKG_KAGING.git
+[submodule "dsr-RL-course"]
+	path = dsr-RL-course
+	url = git@github.com:antahiap/dsr-RL-course.git
+[submodule "dsr-RL-sumo-gym"]
+	path = dsr-RL-sumo-gym
+	url = git@github.com:antahiap/dsr-RL-sumo-gym.git

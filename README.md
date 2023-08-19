@@ -906,3 +906,13 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
 ## Portfolio Project
 
 - kg+llm, [link](https://colab.research.google.com/drive/1G6pcR0pXvSkdMQlAK_P-IrYgo-_staxd?usp=sharing#scrollTo=5mHzFSTbPbWf)
+
+
+# Reinforcement Learning
+- Terminology: 
+ - what is the situation: State, 
+ - what are the possible options: Action space
+ - What are the consequences of each environment: Environment
+  - how rewarding / costly: reward
+  - where do you end up after: next state
+ - Policy: what we are learn, learning state to action
