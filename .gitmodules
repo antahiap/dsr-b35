@@ -58,3 +58,6 @@
 [submodule "dsr-RL-sumo-gym"]
 	path = dsr-RL-sumo-gym
 	url = git@github.com:antahiap/dsr-RL-sumo-gym.git
+[submodule "dsr-cv/intro-to-pytorch"]
+	path = dsr-cv/intro-to-pytorch
+	url = git@github.com:antahiap/intro-to-pytorch.git
