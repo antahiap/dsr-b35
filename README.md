@@ -841,8 +841,40 @@ q - quits the debugger
 more, (link)[https://www.youtube.com/watch?v=P0pIW5tJrRM]
 
 ### Computer vision
+- 2012, Alex net, last big award
+- 1989, MINST (digits)
 - ResNet, it has sjortcot/skip connection to avoid gradient vanishing by adding the f(x) after calculationg the gradient. vanishing gradient comming from manipulation of small value in gradient calculation.
 - in transfer learning, removing last year, > freezing parametr > replacing the last layer, part 8
+
+#### Use-cases
+- Image generation, 
+- Image Segmentation
+- Colorization
+- Denoising
+- Super sampling
+- Image captioning-imag2 text
+- Imafe2vec
+- Object identification
+- Object detetion
+- object recognition
+- object classification
+- pose detection, use LSTM for classification or more data use transformers
+
+#### Methods
+##### Image generation
+- GANs,  to network 1, Adversarial/discrimination (fake no fake) 2, generator
+- Defusion models, denoiser-autoencoder (data: img+ added noise, image)
+- Variational Autoencoder(encoder-decoder: in and out same image), generate normal distribution from latent space representation.
+- Wavenet, first used for audio processing
+- CNN, the filter is also learned
+- VIT, vision transformer.
+- Few shot learning, handful of data
+- zero-shot learning, NN with seeing no example
+
+#### Audio Processing
+Digital Signal processing, audio or picture
+
+
 
 ```
 # Freeze parameters so we don't backprop through them
