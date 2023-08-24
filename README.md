@@ -871,8 +871,23 @@ more, (link)[https://www.youtube.com/watch?v=P0pIW5tJrRM]
 - Few shot learning, handful of data
 - zero-shot learning, NN with seeing no example
 
+
+#### Improving performance-transfer learning
+Architecture: filter, kernel size, sequence, dropout, FC layer size
+data: input image size, augmentation, new data
+
+- Augmentation: yes/no
+- Dropout: yes/no, how much
+- FC size
+- which pretrained network, Other Models: [link](https://keras.io/api/applications/)
+
+- Dropout: dont freeze wait and biase, some of the output values are set to zero
+- Increasing image shape, add computation due to change of FC layers size
+- number of parameters: filter, kernelw-h, 3rd deimention of the image
+
 #### Audio Processing
 Digital Signal processing, audio or picture
+
 
 
 
