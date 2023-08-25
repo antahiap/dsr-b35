@@ -884,6 +884,7 @@ data: input image size, augmentation, new data
 - Dropout: dont freeze wait and biase, some of the output values are set to zero
 - Increasing image shape, add computation due to change of FC layers size
 - number of parameters: filter, kernelw-h, 3rd deimention of the image
+- limit of arcitectures, vaishing gradient, adding residual connection.
 
 #### Audio Processing
 Digital Signal processing, audio or picture
