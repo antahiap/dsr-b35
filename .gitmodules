@@ -61,3 +61,6 @@
 [submodule "dsr-cv/intro-to-pytorch"]
 	path = dsr-cv/intro-to-pytorch
 	url = git@github.com:antahiap/intro-to-pytorch.git
+[submodule "debugging-dl-models"]
+	path = debugging-dl-models
+	url = git@github.com:antahiap/debugging-dl-models.git
