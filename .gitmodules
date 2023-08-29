@@ -64,3 +64,6 @@
 [submodule "debugging-dl-models"]
 	path = debugging-dl-models
 	url = git@github.com:antahiap/debugging-dl-models.git
+[submodule "dsr-graphs"]
+	path = dsr-graphs
+	url = git@github.com:antahiap/dsr-graphs.git
