@@ -973,6 +973,8 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
 2- it is not same pattern, the pattern can totally change
 
 - hardest to bit, null-baseline, predcting tomorrow based on today
+- model overview, may 2023, slide 7
+- Autocorrelation = correlation with itself in the past
 
 - flat line (sine curve), has no trend, ARIMA method takes away the trend to be stationary. Trended is if mean is changing by time.
 - Metrices: slide 84
@@ -993,7 +995,17 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
 - Scipy overview, [link](https://www.youtube.com/watch?v=v5ijNXvlC5A)
 - kaggle, [link](https://www.kaggle.com/learn/time-series)
 - numer.ai, anonymus kaggle for stock market
-- huging face, [link](https://huggingface.co/blog/time-series-transformers)
+- hugging face, [link](https://huggingface.co/blog/time-series-transformers)
 - DARTS
+- online course, [link](https://online.stat.psu.edu/stat510/lesson/1)
+- PROPHET, [link](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
+- KATS, [link](https://facebookresearch.github.io/Kats/)
 
 
+# Interview
+## Lesson learned
+- Look into classical computer science problem
+- Give 10-20% time to analyse the problem before solving it
+- Don't share unnecessary input (start day, different interests and so on)
+- Don't get stuck in the emotional challenges of waiting to hear back.
+- Do research on the type of their peoblem, question what you assume you know
