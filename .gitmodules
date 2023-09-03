@@ -67,8 +67,9 @@
 [submodule "dsr-graphs"]
 	path = dsr-graphs
 	url = git@github.com:antahiap/dsr-graphs.git
-[submodule "dsr-image-dataset-curation"]
+[submodule "dsr-cv/dsr-image-dataset-curation"]
 	path = dsr-image-dataset-curation
 	url = git@github.com:antahiap/dsr-image-dataset-curation.git
 [submodule "dsr-cv/dsr-image-dataset-curation"]
 	path = dsr-cv/dsr-image-dataset-curation
+	url = git@github.com:antahiap/dsr-image-dataset-curation.git
