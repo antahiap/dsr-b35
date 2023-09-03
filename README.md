@@ -972,6 +972,11 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
 1- the pattern is not catchable for human, so hard to judge the result (hard to describe)
 2- it is not same pattern, the pattern can totally change
 
+- hardest to bit, null-baseline, predcting tomorrow based on today
+
+- flat line (sine curve), has no trend, ARIMA method takes away the trend to be stationary. Trended is if mean is changing by time.
+- Metrices: slide 84
+- Review question: slide 100-104
 
 ## Analyses:
 - Anomaly detection
@@ -981,4 +986,14 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
 - keywords: Trend, Seasonality, Residual aka Noise, Stationarity, Autoregressive, Autocorrelation and Partial Autocorrelation, Differencing, Backtesting, Exogenous variable, Look-ahead problem, Multivariate vs univariate, Recursive forecasting, Exponential moving average, Exponential smoothing, LSTM, ARIMA
 
 ## Inputation
-- always consider the lag values, never look in the future, not future influcing the past, just te past affecting the future. 
+- NAN: always consider the lag values, never look in the future, not future influcing the past, just te past affecting the future. 
+- anomalies, defining a percentage or a window in a past and if above that the use the window values for replacing that value
+
+## Links
+- Scipy overview, [link](https://www.youtube.com/watch?v=v5ijNXvlC5A)
+- kaggle, [link](https://www.kaggle.com/learn/time-series)
+- numer.ai, anonymus kaggle for stock market
+- huging face, [link](https://huggingface.co/blog/time-series-transformers)
+- DARTS
+
+
