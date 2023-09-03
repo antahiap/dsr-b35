@@ -76,3 +76,6 @@
 [submodule "dsr-time-series/dsr-time-series-02"]
 	path = dsr-time-series/dsr-time-series-02
 	url = git@github.com:antahiap/dsr-time-series-02.git
+[submodule "dsr-time-series/dsr-time-series-03"]
+	path = dsr-time-series/dsr-time-series-03
+	url = git@github.com:antahiap/dsr-time-series-03.git
