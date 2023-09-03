@@ -964,3 +964,21 @@ learn = vision_learner(dls, resnet34, metrics=error_rate)
   - how rewarding / costly: reward
   - where do you end up after: next state
  - Policy: what we are learn, learning state to action
+
+
+
+# Time series
+- autoregressive model (same as NLP) works the best, but the difference is that :
+1- the pattern is not catchable for human, so hard to judge the result (hard to describe)
+2- it is not same pattern, the pattern can totally change
+
+
+## Analyses:
+- Anomaly detection
+- Forcasting
+- classification
+
+- keywords: Trend, Seasonality, Residual aka Noise, Stationarity, Autoregressive, Autocorrelation and Partial Autocorrelation, Differencing, Backtesting, Exogenous variable, Look-ahead problem, Multivariate vs univariate, Recursive forecasting, Exponential moving average, Exponential smoothing, LSTM, ARIMA
+
+## Inputation
+- always consider the lag values, never look in the future, not future influcing the past, just te past affecting the future. 
